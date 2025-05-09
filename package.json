@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "engines": {
-  "node": "20"
-},
+    "node": "20"
+  },
   "dependencies": {
     "@clerk/nextjs": "^6.18.0",
     "inngest": "^3.35.1",
@@ -19,7 +19,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.5.1",
-    "regenerate-unicode-properties": "^10.2.0"
+    "regenerate-unicode-properties": "^10.2.0",
+    "styled-jsx": "^5.1.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
