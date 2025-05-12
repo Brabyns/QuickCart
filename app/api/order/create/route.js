@@ -3,7 +3,7 @@ import User from "@/models/User";
 import { getAuth } from "@clerk/nextjs/server";
 import { accessedDynamicData } from "next/dist/server/app-render/dynamic-rendering";
 import { NextResponse } from "next/server";
-import { inngest } from "@config/inngest";
+import { inngest } from "@/config/inngest";
 
 export async function POST(request){
     try{
