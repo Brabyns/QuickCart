@@ -196,7 +196,7 @@ const OrderSummary = () => {
           <div className="flex justify-between text-lg md:text-xl font-medium border-t pt-3">
             <p>Total</p>
             <p>
-              {currency} {getCartAmount() + Math.floor(getCartAmount() * 0.02)}
+              {currency} {getCartAmount() + Math.ceil(getCartAmount() * 0.02)}
             </p>
           </div>
         </div>

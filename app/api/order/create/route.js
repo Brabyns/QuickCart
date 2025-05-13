@@ -35,8 +35,8 @@ export async function POST(request) {
         userId,
         address,
         items,
-        amount: amount + Math.floor(amount * 0.02),
-        time: Date.now(),
+        amount: amount + Math.ceil(amount * 0.02),
+        date: Date(),
       },
     });
 
